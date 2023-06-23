@@ -1,0 +1,148 @@
+Atv1
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Cmc = 1, Max = 20
+
+		enquanto(Cmc <= Max){
+			escreva(Cmc, "\n")
+			Cmc++
+		}
+	}
+}
+Atv2
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Cmc = 20, Max = 1
+
+		enquanto(Cmc >= Max){
+			escreva(Cmc, "\n")
+			Cmc--
+		}
+	}
+}
+Atv3
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Cmc = 20, Max = 1
+
+		enquanto(Cmc >= Max){
+			escreva(Cmc, " ")
+			Cmc--
+		}
+	}
+}
+Atv4
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Cmc = 1, Max = 50
+
+		enquanto(Cmc <= Max){
+			escreva(Cmc, "\n")
+			Cmc = Cmc + 2
+		}
+	}
+}
+Atv5
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro N, Min = 1
+		leia(N)
+		limpa()
+		enquanto(N >= Min){
+			escreva(N, "\n\n\n")
+			N = N - 1
+		}
+		leia(N)
+	limpa()
+		enquanto(Min <= N){
+			escreva(Min, "\n\n\n")
+			Min = Min + 1
+		}
+		
+	}
+}
+Atv6
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro N1, N2
+	leia(N1)
+	leia(N2)
+	enquanto(N1 <= N2){
+		escreva(N1, "\n")
+		N1++
+	}
+	enquanto(N1 >= N2){
+		escreva(N2, "\n")
+		N2++
+	}
+	}
+}
+Atv7
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia Senha
+		leia(Senha)
+		enquanto(Senha == "12345" ou Senha == "password" ou Senha == "admin" ou Senha == "senha"){
+			escreva("\n Senha invalida. Tente outra senha \n\n")
+			leia(Senha)
+		}
+		escreva("\n Senha valida")
+	}
+}
+Atv8
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+	inteiro Opcao = 1, Contador = 0
+	enquanto(Opcao == 1){
+		escreva(u.sorteia(1, 999), "\n")
+		Contador++
+		escreva("1---Quero continuar---\n")
+		escreva("2-----Quero parar-----\n")
+		leia(Opcao)
+	}
+	escreva("Você sorteou ", Contador, " numeros.") 
+		
+	}
+}
+Atv9
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Num, Max = 1
+		cadeia X = " x ", I = " = "
+		leia(Num)
+		limpa()
+		enquanto(Max <= 10){
+			escreva(Num,X,Max,I, Num*Max, "\n\n")
+			Max++
+		}
+	}
+}
